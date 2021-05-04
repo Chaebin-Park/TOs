@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#F8F9FB"
+    android:orientation="vertical">
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:progressDrawable="@drawable/progress" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <EditText
+                android:id="@+id/time_out_min"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@null"
+                android:editable="false"
+                android:gravity="center"
+                android:imeOptions="actionNext"
+                android:inputType="number"
+                android:maxLength="2"
+                android:maxLines="1"
+                android:selectAllOnFocus="true"
+                android:text="03"
+                android:textColor="#2c2626"
+                android:textSize="60sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text=" : "
+                android:textColor="#2c2626"
+                android:textSize="60sp"/>
+
+            <EditText
+                android:id="@+id/time_out_sec"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@null"
+                android:editable="false"
+                android:gravity="center"
+                android:imeOptions="actionDone"
+                android:inputType="number"
+                android:maxLength="2"
+                android:maxLines="1"
+                android:selectAllOnFocus="true"
+                android:text="30"
+                android:textColor="#2c2626"
+                android:textSize="60sp" />
+        </LinearLayout>
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btn_start"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ellipsize="middle"
+            android:fontFamily="@font/nanumsquareeb"
+            android:textColor="#98bfbd"
+            android:textSize="20sp"
+            android:onClick="animationstart"
+            android:text="시작" />
+
+        <Button
+            android:id="@+id/btn_reset"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:enabled="false"
+            android:ellipsize="middle"
+            android:fontFamily="@font/nanumsquareeb"
+            android:textColor="#98bfbd"
+            android:textSize="20sp"
+            android:text="초기화" />
+
+    </LinearLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/timer_mode_txt"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="100dp"
+            android:layout_weight="10"
+            android:ellipsize="middle"
+            android:fontFamily="@font/nanumsquareeb"
+            android:gravity="center_horizontal"
+            android:singleLine="true"
+            android:textColor="#98bfbd"
+            android:textSize="20sp"
+            android:textStyle="normal"
+            android:visibility="visible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints" />
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/tooth_top"
+            android:layout_width="233dp"
+            android:layout_height="236dp"
+            android:layout_marginStart="152dp"
+            android:layout_marginTop="250dp"
+            android:layout_marginEnd="140dp"
+            android:layout_marginBottom="300dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.552"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.367"
+            app:lottie_fileName="top-brush-guideline-1.json" />
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/tooth_front_bottom"
+            android:layout_width="233dp"
+            android:layout_height="236dp"
+            android:layout_marginStart="152dp"
+            android:layout_marginTop="250dp"
+            android:layout_marginEnd="140dp"
+            android:layout_marginBottom="300dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.552"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.367"
+            app:lottie_fileName="bottom-brush-guideline-6.json" />
+
+
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</LinearLayout>
+

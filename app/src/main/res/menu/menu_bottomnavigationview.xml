@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/callHome"
+        android:icon="@drawable/callhomebtn"
+        android:title="홈" />
+    <item
+        android:id="@+id/callQnA"
+        android:icon="@drawable/callqnabtn"
+        android:title="QnA" />
+    <item
+        android:id="@+id/callBrush"
+        android:icon="@drawable/callbrushbtn"
+        android:title="양치하기" />
+    <item
+        android:id="@+id/callCalendar"
+        android:icon="@drawable/callcalendarbtn"
+        android:title="다이어리" />
+    <item
+        android:id="@+id/callInformation"
+        android:icon="@drawable/callinsightbtn"
+        android:title="정보" />
+</menu>

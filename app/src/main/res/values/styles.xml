@@ -1,0 +1,30 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="TosTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowTranslucentStatus">true</item>
+<!--        <item name="android:windowTranslucentNavigation">true</item>-->
+        <item name="android:textViewStyle">@style/customTextViewFontStyle</item>
+        <item name="android:buttonStyle">@style/customButtonFontStyle</item>
+        <item name="android:editTextStyle">@style/customEditTextFontStyle</item>
+        <item name="android:radioButtonStyle">@style/customRadioButtonFontStyle</item>
+        <item name="android:checkboxStyle">@style/customCheckboxFontStyle</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+
+    </style>
+    <style name="CustomTextAppearance" parent="TextAppearance.MaterialCalendarWidget.Date">
+        <item name="android:textColor">@color/my_date_text_color</item>
+    </style>
+    <style name="CustomWeekTextApperance" parent="TextAppearance.MaterialCalendarWidget.Date">
+        <item name="android:textColor">@color/my_week_text_color</item>
+    </style>
+    <style name="CustomHeaderTextApperance" parent="TextAppearance.MaterialCalendarWidget.Date">
+        <item name="android:textColor">@color/my_header_text_color</item>
+    </style>
+</resources>

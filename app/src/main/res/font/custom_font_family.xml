@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<font-family
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <font
+        android:font="@font/nanumsquarel"
+        android:fontStyle="normal"
+        app:font="@font/nanumsquarel"
+        app:fontStyle="normal"
+        />
+    <!--regular-->
+    <font
+        android:font="@font/nanumsquarer"
+        android:fontStyle="normal"
+        app:font="@font/nanumsquarer"
+        app:fontStyle="normal"
+     />
+
+    <font
+        android:font="@font/nanumsquareb"
+        android:fontStyle="normal"
+        app:font="@font/nanumsquareb"
+        app:fontStyle="normal"
+        />
+
+    <font
+        android:font="@font/nanumsquareeb"
+        android:fontStyle="normal"
+        app:font="@font/nanumsquareeb"
+        app:fontStyle="normal"
+
+        />
+
+
+</font-family>

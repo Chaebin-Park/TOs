@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f8f9fb"
+    android:fitsSystemWindows="true"
+    tools:context=".LoginActivity">
+
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="50dp"
+        android:layout_height="55.6dp"
+        android:layout_marginStart="155dp"
+        android:layout_marginTop="84dp"
+        android:layout_marginEnd="155dp"
+        android:layout_marginBottom="500dp"
+        android:src="@drawable/logo_color_2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.5" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="161dp"
+        android:layout_marginTop="146dp"
+        android:layout_marginEnd="161dp"
+        android:layout_marginBottom="474dp"
+        android:fontFamily="@font/nanumsquareeb"
+        android:text="TO’S"
+        android:textColor="#98bfbd"
+        android:textSize="17.5sp"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.5" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="325.5dp"
+        android:layout_height="104.8dp"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="500dp"
+        android:layout_marginEnd="17dp"
+        android:adjustViewBounds="true"
+        android:background="@android:color/transparent"
+        android:cropToPadding="false"
+        android:scaleType="fitXY"
+        android:src="@drawable/kakao_login_large_wide_1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/tooth_turn"
+        android:layout_width="233dp"
+        android:layout_height="236dp"
+        android:layout_marginStart="152dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginEnd="140dp"
+        android:layout_marginBottom="300dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.552"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:lottie_autoPlay="true"
+        app:lottie_fileName="doctores-freepik.json"
+        app:lottie_loop="true" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

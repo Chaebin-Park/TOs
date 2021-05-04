@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="nal">
+        <item>Month</item>
+        <item>Year</item>
+        <item>Day</item>
+    </string-array>
+</resources>
